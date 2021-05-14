@@ -69,9 +69,7 @@ You need to download the [jx-secret-postrenderer binary](https://github.com/jenk
 
 You also need to make sure your kubernetes cluster has the [kubernetes external secrets helm chart installed](https://github.com/external-secrets/kubernetes-external-secrets#install-with-helm).
  
-If you are working with vault you'll need to set the `$VAULT_ADDR` to point at your vault server.
-
-If its inside the cluster you may need to [run a port forward](https://jenkins-x.io/v3/admin/setup/secrets/vault/#using-vault).
+If you are working with vault you'll need to set the `$VAULT_ADDR` to point at your vault server. If its inside the cluster you may need to [run a port forward](https://jenkins-x.io/v3/admin/setup/secrets/vault/#using-vault).
  
 
 ## User Guide
