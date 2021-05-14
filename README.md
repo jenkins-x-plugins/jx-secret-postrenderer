@@ -8,7 +8,7 @@
     
 ## Overview
 
-`jx-secret-postrenderer` is a [helm post renderer](https://helm.sh/docs/topics/advanced/#post-rendering) for working with [helm](https://helm.sh/) and [Kubernetes External Secrets](https://github.com/godaddy/kubernetes-external-secrets).
+`jx-secret-postrenderer` is a [helm post renderer](https://helm.sh/docs/topics/advanced/#post-rendering) for working with [helm](https://helm.sh/) and [Kubernetes External Secrets](https://github.com/external-secrets/kubernetes-external-secrets).
 
 This post renderer lets you use helm charts which contain `Secret` resources and have those secrets managed by [Kubernetes External Secrets](https://github.com/godaddy/kubernetes-external-secrets) without having to modify your charts.
 
