@@ -1,4 +1,4 @@
-FROM gcr.io/jenkinsxio/jx-boot:latest
+FROM ghcr.io/jenkins-x/jx-boot:latest
 
 ENTRYPOINT ["jx-secret-postrenderer"]
 
